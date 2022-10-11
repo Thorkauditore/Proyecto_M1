@@ -4,4 +4,7 @@
 let prueba= prueba1
 if (prueba){}
 
-let casa = prueba1
+for (let i = 0; i < array.length; i++) {
+    const element = array[i];
+    let casa = prueba1
+}
