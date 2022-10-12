@@ -5,14 +5,14 @@
 
 header {
     background-color: rgb(228, 8, 144);
-    width: 60%
+    /* width: 60% */
 }
 
 main,
 footer {
     background-color: rgb(242, 226, 6);
     font-size: 1, 5rem;
-    width: 15%
+    /* width: 15% */
 }
 
 @media (max-width: 600px) {
