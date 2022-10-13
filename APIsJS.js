@@ -42,9 +42,13 @@ let selectorMain = document.querySelector("#select")
     .then((response) => response.json())
 
     .then((response) => {
-      response.forEach((vueltaFor,) => {
-        console.log();
-        // el 0 de los array, son los 0 de vueltaFor.
-        divId1.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
+        let count = 0;
+      response.forEach((vueltaFor) => { // el 0 de los array, son los 0 de vueltaFor.
+        if(total !== 5){
+            selectorMain.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
+            total++;
+        } else {
+            return;
+        }
       });
     });
