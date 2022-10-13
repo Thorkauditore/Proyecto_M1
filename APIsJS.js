@@ -45,6 +45,6 @@ let divId2 = document.querySelector("#nombre1")
       response.forEach((vueltaFor,) => {
         console.log();
         // el 0 de los array, son los 0 de vueltaFor.
-        divId.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
+        divId1.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
       });
     });
