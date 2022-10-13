@@ -19,7 +19,7 @@ fetch('https://nba-stats4.p.rapidapi.com/teams/?per_page=50&page=1', options)
       select.innerHTML += `<option value="${i}">${team.abbreviation}</option>`;
     });
   });
-debugger
+
 document.querySelector("input[type='submit']").addEventListener("click", (e) => {
   e.preventDefault()
   let datosEquipo = document.querySelector("select").value
