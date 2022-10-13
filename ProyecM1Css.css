@@ -1,21 +1,29 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 50;
+    margin: 50;
 }
 
 header {
     background-color: rgb(228, 8, 144);
+
     /* width: 60% */
 }
 
-main,
+main{
+    background-color: black;
+}
+
+
+
+
+
 footer {
     background-color: rgb(242, 226, 6);
     font-size: 1, 5rem;
     /* width: 15% */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
 
     main,
     header,
@@ -26,7 +34,7 @@ footer {
     }
 }
 
-@media (min-width: 600px) and (max-width:800px) {
+/* @media (min-width: 600px) and (max-width:800px) {
 
     main {
         background-color: green;
@@ -40,4 +48,4 @@ footer {
         font-size: 0, 5rem;
         width: 30%
     }
-}
+} */
