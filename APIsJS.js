@@ -34,7 +34,7 @@ const options2 = {
       "X-RapidAPI-Host": "nba-stats4.p.rapidapi.com",
     },
   };
-let divId2 = document.querySelector("#nombre1")
+let selectorMain = document.querySelector("#select")
   fetch(
     "https://nba-stats4.p.rapidapi.com/teams/?per_page=50&page=1",
     options2
@@ -42,9 +42,13 @@ let divId2 = document.querySelector("#nombre1")
     .then((response) => response.json())
 
     .then((response) => {
-      response.forEach((vueltaFor,) => {
-        console.log();
-        // el 0 de los array, son los 0 de vueltaFor.
-        divId.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
+        let count = 0;
+      response.forEach((vueltaFor) => { // el 0 de los array, son los 0 de vueltaFor.
+        if(total !== 5){
+            selectorMain.innerHTML += `<h1>${vueltaFor.full_name}</h1>`
+            total++;
+        } else {
+            return;
+        }
       });
     });
