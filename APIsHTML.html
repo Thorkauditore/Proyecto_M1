@@ -10,25 +10,47 @@
 
   <body>
     <header>
-      <form>
+      <h1 id="title">
+        <img src="1200px-NBA_script.svg.png" alt="LogoNBA" />
+      </h1>
+
+      <form id="buscador">
         <select>
           <option disable selected>Equipos</option>
         </select>
         <input type="submit" value="Buscar Información" />
       </form>
-    </header>
 
-    <main>
-      <div id="fullName"></div>
-      <div id="yearsold"></div>
-      <div id="citys"></div>
-      <div id="img"></div>
       <button id="cerrarSesion">
         <a href="./FormularioHTML.html">Cerrar Sesión</a>
       </button>
+
+    </header>
+
+    <main>
+
+     <div id="datosEquipo">
+      <div id="fullName"></div>
+      <div id="yearsold"></div>
+      <div id="citys"></div>
+    </div>
+      <div id="img"></div>
+    
+  
     </main>
 
-    <footer></footer>
+    <footer>
+      <h2 id="lema">Porque todos los jugones sonrien igual.</h2>
+      <div>
+        <ul id="redesSociales">
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>Instagram</li>
+        </ul>
+      </div>
+
+
+    </footer>
 
     <script src="APIsJS.js"></script>
   </body>
