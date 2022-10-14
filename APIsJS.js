@@ -7,7 +7,7 @@ const options = {
   headers: {
     'X-RapidAPI-Key': '0da16c44fbmsh7d65b9193e777b5p1c1087jsnc7a35e22321b',
     'X-RapidAPI-Host': 'nba-stats4.p.rapidapi.com'
-  }
+  } 
 }
 
 fetch('https://nba-stats4.p.rapidapi.com/teams/?per_page=50&page=1', options)

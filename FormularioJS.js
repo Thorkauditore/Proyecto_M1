@@ -4,7 +4,7 @@ document.querySelector("#btn").addEventListener("click", function () {
     let data = {
         email,
         contraseña
-    }
+    } 
     // console.log(data)
 
     let objStrigified = JSON.stringify(data) // Pasamos a lectura adecuado para el storage. 
