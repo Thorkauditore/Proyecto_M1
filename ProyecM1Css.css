@@ -6,6 +6,7 @@ body {
   background-image: url(https://get.wallhere.com/photo/1366x768-px-basketball-NBA-1034338.jpg);
   min-height: 100vh;
   margin: 0;
+  font-family:'Oranienbaum', serif;
 }
 
 header {
@@ -45,6 +46,14 @@ footer {
   background-color: rgba(31, 109, 161, 0.604);
   color: rgb(255, 50, 50);
   transition: 0, 3s;
+  font-size: 18px;
+  margin: 20px;
+  width: 20%;
+  word-spacing: 30px;
+  text-align: center;
+}
+.listaNoticias {
+  color: rgb(214, 10, 10);
 }
 
 .buscador {
@@ -70,6 +79,7 @@ footer {
 
 .redesSociales {
   text-align: center;
+  color: aliceblue;
 }
 
 /* MEDIAS PARA DISPOSITIVOS */
