@@ -1,82 +1,85 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-image: url(https://get.wallhere.com/photo/1366x768-px-basketball-NBA-1034338.jpg);
+  min-height: 100vh;
+  margin: 0;
+  font-family:'Oranienbaum', serif;
 }
 
 header {
   background-color: rgba(192, 13, 13, 0.452);
   border-radius: 8px;
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 98% 
+  text-align: center;
+
+  width: 100%;
 }
 
 main {
-  color: aliceblue;
-  
-  font-size: 1, 5rem;
+  max-width: auto;
+  width: 98%;
   text-align: center;
-  border-radius: 500px;
-  margin: 230px;
-  width: 98%
 }
 
 footer {
-  margin: 0 1vh 0 1vh;
-  padding: 0 2vh 0 2vh;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 100px;
   border-radius: 8px;
   background-color: rgba(192, 13, 13, 0.452);
-  display: flex;
-  align-items: flex-end;
-  width: 98%
 }
 
 #title {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  text-align: left;
-  color: rgb(255, 255, 255);
-
-  object-fit: 5px;
+  margin: 0;
 }
 
 #title img {
-  width: 50px;
+  align-items: flex-start;
+  width: 60px;
   height: auto;
 }
 
-
-#listaNoticias :hover {
-  background-color: rgba(31, 109, 161, 0.814);
+.listaNoticias :hover {
+  background-color: rgba(31, 109, 161, 0.604);
   color: rgb(255, 50, 50);
   transition: 0, 3s;
-  list-style-type: none;
-  display: flex;
+  font-size: 18px;
+  margin: 20px;
+  width: 20%;
+  word-spacing: 30px;
+  text-align: center;
+}
+.listaNoticias {
+  color: rgb(214, 10, 10);
 }
 
-#log {
-  margin: 0 1vh 0 1vh;
-  padding: 0 2vh 0 2vh;
-  background-color: white;
-  border-radius: 4px;
+.buscador {
+  text-align: center;
+  align-items: center;
+}
+
+.datosEquipo {
+  text-align: center;
+  background-color: aliceblue;
+}
+#imgDatos img {
+  height: 200px;
+  width: 250px;
+}
+
+.log {
+  text-align: center;
 }
 #lema {
-  margin: auto;
-  align-items: center;
+  text-align: center;
 }
 
-#redesSociales {
-  font-size: 25px;
-  margin: 0 1vh 0 1vh;
-  padding: 0 2vh 0 2vh;
-  border-radius: 4px;
-  list-style-type: none;
-  display: flex;
-  
-  align-items: center;
-  margin: 50px;
+.redesSociales {
+  text-align: center;
+  color: aliceblue;
 }
 
 /* MEDIAS PARA DISPOSITIVOS */
@@ -93,22 +96,27 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 98%;
   }
 
   main {
     color: aliceblue;
-    /* background-color: rgba(255, 0, 0, 0.33); */
+
     font-size: 1, 5rem;
-    /* width: 15% */
     text-align: center;
     border-radius: 500px;
     margin: 230px;
+    width: 98%;
   }
 
   footer {
     margin: 0 1vh 0 1vh;
     padding: 0 2vh 0 2vh;
+    border-radius: 8px;
     background-color: rgba(192, 13, 13, 0.452);
+    display: flex;
+    align-items: flex-end;
+    width: 98%;
   }
 
   #title {
@@ -126,28 +134,45 @@ footer {
     height: auto;
   }
 
-  #listaNoticias :hover {
-    background-color: rgba(2, 97, 160, 0.61);
+  .listaNoticias :hover {
+    background-color: rgba(31, 109, 161, 0.814);
     color: rgb(255, 50, 50);
-    transition: 0, 9s;
+    transition: 0, 3s;
     list-style-type: none;
     display: flex;
   }
+  .buscado {
+    margin: 0 1vh 0 1vh;
+  }
 
-  #log {
+  .datosEquipo {
+    margin: 100;
+    text-align: center;
+    background-color: rgba(2, 2, 255, 0.418);
+    color: rgba(8, 16, 9, 0);
+    border-radius: 4px;
+  }
+
+  .log {
     margin: 0 1vh 0 1vh;
     padding: 0 2vh 0 2vh;
     background-color: white;
     border-radius: 4px;
   }
+  #lema {
+    margin: auto;
+    align-items: center;
+  }
 
-  #redesSociales {
+  .redesSociales {
+    font-size: 25px;
     margin: 0 1vh 0 1vh;
     padding: 0 2vh 0 2vh;
-    background-color: white;
     border-radius: 4px;
     list-style-type: none;
     display: flex;
+
+    align-items: center;
     margin: 50px;
   }
 }

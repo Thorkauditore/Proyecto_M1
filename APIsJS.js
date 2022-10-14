@@ -28,6 +28,6 @@ document.querySelector("input[type='submit']").addEventListener("click", (e) => 
   document.querySelector("#fullName").innerHTML = `<h2>${teams[datosEquipo].full_name}</h2>`
   document.querySelector("#citys").innerHTML = `<h4>Ciudad; ${teams[datosEquipo].city}</h4>`
   document.querySelector("#yearsold").innerHTML = `<h3>Año de fundación ${teams[datosEquipo].year_founded}</h3>`
-  document.querySelector("#img").innerHTML = `<img src="./teams/${teams[datosEquipo].abbreviation}.png" alt="vaya">`
+  document.querySelector("#imgDatos").innerHTML = `<img src="./teams/${teams[datosEquipo].abbreviation}.png" alt="vaya">`
 
 })
