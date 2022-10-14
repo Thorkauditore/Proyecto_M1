@@ -74,17 +74,17 @@ main {
     list-style-type: none;
     display: flex;
     margin: 50px;
-    text-align: center;
+
+
 
 }
 
 footer {
     margin: 0 1vh 0 1vh;
     padding: 0 2vh 0 2vh;
-    background-color: rgba(192, 13, 13, 0.452)
+    background-color: rgba(192, 13, 13, 0.452);
     
     
-
 }
 
 
