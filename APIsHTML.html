@@ -6,29 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="ProyecM1Css.css" />
     <title>Document</title>
-  </head> 
+  </head>
 
   <body>
     <header>
-      <form>
+      <h1 id="title">
+        <img src="1200px-NBA_script.svg.png" alt="LogoNBA" />
+      </h1>
+
+      <form class="buscador">
         <select>
           <option disable selected>Equipos</option>
         </select>
         <input type="submit" value="Buscar Información" />
       </form>
-    </header>
 
-    <main>
-      <div id="fullName"></div>
-      <div id="yearsold"></div>
-      <div id="citys"></div>
-      <div id="img"></div>
       <button id="cerrarSesion">
         <a href="./FormularioHTML.html">Cerrar Sesión</a>
       </button>
+    </header>
+
+    <main>
+      <div class="datosEquipo">
+        <div id="fullName"></div>
+        <div id="yearsold"></div>
+        <div id="citys"></div>
+      </div>
+      <div id="img"></div>
     </main>
 
-    <footer></footer>
+    <footer>
+      <h2 id="lema">Porque todos los jugones sonrien igual.</h2>
+
+      <div class="redesSociales">
+        <a href="https://www.nbamaniacs.com/">Facebook</a>
+        <a href="https://www.nbamaniacs.com/">Twitter</a>
+        <a href="https://www.nbamaniacs.com/">Instagram</a>
+      </div>
+    </footer>
 
     <script src="APIsJS.js"></script>
   </body>

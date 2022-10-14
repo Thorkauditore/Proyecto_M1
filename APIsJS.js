@@ -14,7 +14,8 @@ fetch('https://nba-stats4.p.rapidapi.com/teams/?per_page=50&page=1', options)
   .then(response => response.json())
   .then((response) => {
     teams = response // El array de obejtos.
-    // console.log(response);
+   
+   console.log(response);
     response.forEach((team, i) => {
       select.innerHTML += `<option value="${i}">${team.abbreviation}</option>`;
     });
