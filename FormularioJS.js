@@ -24,5 +24,9 @@ document.querySelector("#btn").addEventListener("click", function () {
     } else {
         alert("Logueate")
     }
+document.querySelector("select").addEventListener("change", function () {
+    //alert("He hecho click")
+    alert("Has elegido " + (document.querySelector("select").value));
+
 
 })
