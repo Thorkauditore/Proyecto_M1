@@ -3,28 +3,28 @@ body {
 }
 
 header {
-    background-color: rgba(192, 13, 13, 0.452);
-    border-radius: 8px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: rgba(192, 13, 13, 0.452);
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main {
-    color: aliceblue;
-    /* background-color: rgba(255, 0, 0, 0.33); */
-    font-size: 1, 5rem;
-    /* width: 15% */
-    text-align: center;
-    border-radius: 500px;
-    margin: 230px;
+  color: aliceblue;
+  /* background-color: rgba(255, 0, 0, 0.33); */
+  font-size: 1, 5rem;
+  /* width: 15% */
+  text-align: center;
+  border-radius: 500px;
+  margin: 230px;
 }
 
 footer {
-    margin: 0 1vh 0 1vh;
-    padding: 0 2vh 0 2vh;
-    background-color: rgba(192, 13, 13, 0.452);
+  margin: 0 1vh 0 1vh;
+  padding: 0 2vh 0 2vh;
+  background-color: rgba(192, 13, 13, 0.452);
 }
 
 #title {
@@ -42,12 +42,12 @@ footer {
     height: auto;
 }
 
-.listaNoticias {
-    color: rgb(31, 52, 241);
-    background-color: white;
-    text-align: left;
-    margin: 20px;
-    font-size: 20px;
+#listaNoticias :hover {
+  background-color: rgba(2, 97, 160, 0.61);
+  color: rgb(255, 50, 50);
+  transition: 0, 9s;
+  list-style-type: none;
+  display: flex;
 }
 
 #log {
@@ -58,18 +58,17 @@ footer {
 }
 
 #lema {
-    color: white;
-    text-align: center;
-    margin: 50px;
+  margin: auto;
 }
 
-.redesSociales {
-    padding: 0 2vh 0 2vh;
-    background-color: white;
-    border-radius: 4px;
-    list-style-type: none;
-    display: flex;
-    margin: 20px;
+#redesSociales {
+  margin: 0 1vh 0 1vh;
+  padding: 0 2vh 0 2vh;
+  background-color: white;
+  border-radius: 4px;
+  list-style-type: none;
+  display: flex;
+  margin: 50px;
 }
 
 /* MEDIAS PARA DISPOSITIVOS */
