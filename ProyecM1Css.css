@@ -9,22 +9,27 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 98% 
 }
 
 main {
   color: aliceblue;
-  /* background-color: rgba(255, 0, 0, 0.33); */
+  
   font-size: 1, 5rem;
-  /* width: 15% */
   text-align: center;
   border-radius: 500px;
   margin: 230px;
+  width: 98%
 }
 
 footer {
   margin: 0 1vh 0 1vh;
   padding: 0 2vh 0 2vh;
+  border-radius: 8px;
   background-color: rgba(192, 13, 13, 0.452);
+  display: flex;
+  align-items: flex-end;
+  width: 98%
 }
 
 #title {
@@ -42,10 +47,11 @@ footer {
   height: auto;
 }
 
+
 #listaNoticias :hover {
-  background-color: rgba(2, 97, 160, 0.61);
+  background-color: rgba(31, 109, 161, 0.814);
   color: rgb(255, 50, 50);
-  transition: 0, 9s;
+  transition: 0, 3s;
   list-style-type: none;
   display: flex;
 }
@@ -58,15 +64,18 @@ footer {
 }
 #lema {
   margin: auto;
+  align-items: center;
 }
 
 #redesSociales {
+  font-size: 25px;
   margin: 0 1vh 0 1vh;
   padding: 0 2vh 0 2vh;
-  background-color: white;
   border-radius: 4px;
   list-style-type: none;
   display: flex;
+  
+  align-items: center;
   margin: 50px;
 }
 
