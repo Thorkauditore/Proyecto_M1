@@ -26,6 +26,7 @@ document.querySelector("input[type='submit']").addEventListener("click", (e) => 
   document.querySelector("#fullName").innerHTML = `<h2>${teams[datosEquipo].full_name}</h2>`
   document.querySelector("#citys").innerHTML = `<h4>Ciudad; ${teams[datosEquipo].city}</h4>`
   document.querySelector("#yearsold").innerHTML = `<h3>Año de fundación ${teams[datosEquipo].year_founded}</h3>`
+  console.log(datosEquipo);
   if (datosEquipo == 1) {
     document.querySelector("#img").src = `<img src="./https://en.wikipedia.org/wiki/Atlanta_Hawks#/media/File:Atlanta_Hawks_logo.svg" alt="vaya">`
   }
